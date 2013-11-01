@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+html, body { width:auto; height: 100%; background: #fff;}
+html { -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
+html * { margin:0; padding:0; outline:none; line-height:normal; color: #646e7b; font-size:15px; font-weight:normal; font-family:"arial",sans-serif; vertical-align:baseline; }
+
+/* HEADERS */
+
+h1, h2, h3, h4, h5, h6 { display:block; position:relative; }
+h1 *, h2 *, h3 *, h4 *, h5 *, h6 * { display:inline; margin:0; }
+
+h1, h1 * { font-size: 24px; font-weight:normal; font-family:"arial",sans-serif; color: #646e7b}
+h2, h2 * { font-size:18px; font-weight:normal; font-family:"arial",sans-serif;  color: #93d955}
+h3, h3 * { font-size:15px; font-weight:normal; font-family:"arial",sans-serif; color: #646e7b }
+h4, h4 * { font-size:20px; font-weight:normal; font-family:"arial",sans-serif; }
+h5, h5 * { font-size:17px; font-weight:normal; font-family:"arial",sans-serif; }
+h6, h6 * { font-size:14px; font-weight:normal; font-family:"arial",sans-serif; }
+
+h1 { margin-bottom:15px; }
+h2 { margin-bottom:12px; }
+h3 { margin-bottom:9px; }
+h4 { margin-bottom:6px; }
+h5 { margin-bottom:3px; }
+h6 { margin-bottom:0; }
+
+/* BASIC */
+
+div, p, blockquote, ul, ol, header, hgroup, footer, section, nav, canvas, article, aside, figure, figcaption { display:block; position:relative; }
+p, blockquote, ul, ol { margin-bottom:7px; margin-top:7px; }
+ul ul, ol ol { margin-bottom:0; }
+li { display:list-item; padding:0; }
+ul li { list-style:outside disc; margin:0 0 0 18px; }
+ul ul { padding-left:15px; }
+ul ul li { list-style:outside circle; }
+ul ul ul li { list-style:outside square; }
+ol li { list-style:outside decimal; margin:0 0 0 20px; }
+ol ol { padding-left:20px; }
+ol ol li { list-style:outside lower-alpha; }
+ol ol ol li { list-style:outside lower-roman; }
+a, a * { display:inline; text-decoration:none; font-weight:normal;  }
+a:hover { text-decoration:none; }
+strong, strong *, b, b * { font-weight:bold; }
+em, em *, i, i * { font-style:italic; }
+hr { background:#62615d; color:#62615d; width:100%; height:1px; margin:15px 0; border-width:0; line-height:0; page-break-after:always; text-align:center; overflow:hidden; }
+button { cursor:pointer; padding:3px 6px; }
+abbr, acronym { font-style:normal; border-bottom:1px dotted; cursor:help; }
+del { text-decoration:line-through; }
+img { border:none; }
+
+audio, canvas, video { display:inline-block; *display:inline; *zoom:1; }
+audio:not([controls]) { display:none; }
+[hidden] { display:none; }
+
+
+/* TABLES */
+
+table { display:table; table-layout:fixed; border-collapse:collapse; border:none; empty-cells:show; border-spacing:0; text-align:center; }
+tr { display:table-row; }
+thead { display:table-header-group; }
+tbody { display:table-row-group; }
+tfoot { display:table-footer-group; }
+col { display:table-column; }
+colgroup { display:table-column-group; }
+td, th { display:table-cell; vertical-align:middle; border:1px solid #555; padding:5px; }
+caption { display:table-caption; }
+
+
+/* FORMS */
+
+form, input, textarea, select, fieldset, label { display:block; position:relative; margin:0; padding:0; }
+input, textarea, select { color:#333; }
+label { cursor:default; }
+select { cursor:pointer; padding:3px; }
+textarea { cursor:text; overflow:auto; padding:3px; resize:vertical; }
+.text, [type='text'], .password, [type='password'] { cursor:text; padding:3px; }
+.submit, [type='submit'], .button, [type='button'] { cursor:pointer; padding:3px 6px; }
+.hidden, [type='hidden'] { display:none; }
+.disabled, [disabled] { cursor:default !important; }
+.checkbox, [type='checkbox'], .radio, [type='radio'] { cursor:pointer; }
+
+/* CLASSES */
+
+.float-L, .float-L-children * { float:left !important; }
+.float-R, .float-R-children * { float:right !important; }
+
+.clear-L { clear:left !important; }
+.clear-R { clear:right !important; }
+.clear-B { clear:both !important; }
+
+.hide, .hide * { display:none !important; }
+.show { display:block !important; }
+
+.focus, .focus-children * { outline:1px dotted #000; }
+
+.inline-block, .inline-block-children * {
+	display:-moz-inline-stack !important;
+	display:inline-block !important;
+	zoom:1 !important;
+	*display:inline !important;
+}
+
+.hide-text, .hide-text-children {
+	text-indent:-9999px !important; 
+	overflow:hidden !important; 
+	/* bugfix: text-indent does not behave the same way in IE6 and 7 as modern browser do */
+	*text-indent:0 !important;
+	*font-size:0 !important;
+	*line-height:0 !important;
+}
+
+/* HACKS */
+
+.clearfix:after { content:"."; }
+.clearfix { display:block; clear:both; visibility:hidden; line-height:0 !important; height:0; overflow:hidden; }
+
+/* remove focus borders from webkit browsers */
+*:focus { outline:0; } 
+
+/* peekaboo fix */
+div, form, fieldset, header, footer, section, nav, canvas, article, aside, figure { min-height:0; }
+
+/* MSIE6 hasLayout fix */
+* html div,
+* html form { zoom:1; }
+
+/* MSIE7 hasLayout fix */
+*:first-child+html div,
+*:first-child+html form { zoom:1; }
+
+/* MSIE6 button padding fix */
+* html button,
+* html .submit,
+* html .button,
+* html [type='submit'],
+* html [type='button'] { width:auto; display:inline; overflow:visible; }
+
+/* MSIE7 button padding fix */
+*:first-child+html button,
+*:first-child+html .submit,
+*:first-child+html .button,
+*:first-child+html [type='submit'],
+*:first-child+html [type='button'] { width:auto; display:inline; overflow:visible; }
+
+
+
+

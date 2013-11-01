@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+#wrapper {
+	width: 100%; 
+	display: block; 
+	border-top: 3px solid #e34b00;
+}
+
+#container {
+	width: 1000px; 
+	margin: 0 auto;
+}
+
+.headerElement h1 {
+	text-indent: -9999px; 
+	display: block; 
+	width: 654px; 
+	height: 215px; 
+	background: url("../images/header.jpg") no-repeat bottom; 
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.boxElement {
+	display: block;
+	background: #f1f0f0;
+	border: 1px solid #e0dfdf;
+	padding: 20px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.boxElement input {
+	font-size: 29px;
+	width: 75%;
+	float: left;
+}
+
+.boxElement .btnShorten {
+	font-size: 29px;
+	width: 20%;
+	float: right;
+	background: #e34b00;
+	padding: 4px;
+	text-align: center;
+	border: 1px solid #c34202;
+	color: #fff;
+}
+.boxElement .btnDecode {
+	font-size: 29px;
+	width: 20%;
+	float: right;
+	background: #f7c800;
+	padding: 4px;
+	text-align: center;
+	border: 1px solid #d8b005;
+	color: #fff;
+}
+.navElement {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.navElement a {
+	display: inline-block;
+	background-color: #e34b00;
+	color: #fff;
+	padding: 10px 20px;
+	font-weight: bold;
+	-webkit-border-bottom-right-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+#responseElement .loader
+{
+	display: block;
+	margin: 20px auto;
+}
+
+#responseElement.success {
+	margin-top: 20px;
+}
+#responseElement h2 {
+	font-weight: bold;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	color: #959a00;
+	font-size: 30px;
+}
+
+#responseElement h3 {
+	font-weight: bold;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	color: #333;
+	font-size: 24px;
+}
+
+#responseElement.error
+{
+	margin-top: 20px;
+	padding-left: 100px;
+	padding-top: 10px;
+	min-height: 75px;
+	background: url("../images/error.jpg") no-repeat;
+}
+
+#responseElement.error h2{
+	color: #a61400; 
+}

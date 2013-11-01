@@ -1,0 +1,164 @@
+
+html { overflow:auto; }
+body { overflow:hidden; width:100%; height:auto; min-height:100%; margin:0; padding:0; }
+
+
+img { color:black; } /* prevent emma from loading obscure vendor prefixed color values */
+
+
+.number { width:232px; height:25px; }
+.number .spinLabel,
+.number .spinWrapper { display:block; float:left; height:25px; }
+.number .spinLabel { line-height:25px; }
+.number .spinWrapper { width:60px; }
+.number .spinInput { width:50px; height:15px; margin:0; padding:5px; border:none; text-align:right; line-height:15px; }
+.number .spinUp,
+.number .spinDown { position:absolute; bottom:auto; left:auto; margin:0; padding:0; border:none; background:none; }
+.number .spinUp { top:0; right:0; }
+.number .spinDown { bottom:0; right:0; }
+.number .spinIcon { display:block; width:17px; height:11px; background:url("../images/formNumberSpinnerArrows.png") no-repeat; }
+.number .spinUp .spinIcon { background-position:0 0; }
+.number .spinDown .spinIcon { background-position:0 -11px; }
+.number .spinUp:hover .spinIcon { background-position:-17px 0; }
+.number .spinDown:hover .spinIcon { background-position:-17px -11px; }
+
+.text { width:310px; height:25px; }
+.text .textLabel,
+.text .textWrapper { display:block; float:left; height:25px; }
+.text .textLabel { line-height:25px; }
+.text .textWrapper { width:160px; }
+.text .textInput { width:150px; height:15px; margin:0; padding:5px; border:none; text-align:right; line-height:15px; }
+
+.checkbox { width:227px; height:27px; }
+.checkbox .checkboxLabel,
+.checkbox .iPhoneCheckContainer { display:block; float:left; height:27px; }
+.checkbox .checkboxLabel {  line-height:27px; }
+
+.select { width:310px; height:25px; }
+.select .selectLabel,
+.select .selectWrapper { display:block; float:left; height:25px; }
+.select .selectLabel { line-height:25px; }
+.select .selectWrapper { width:160px; }
+.select .selectBox { width:100%; height:100%; margin:0; padding:4px; border:none; line-height:15px; }
+
+
+
+
+.divbox-dropdown { width:100%; height:31px; }
+.divbox-dropdown .dropdownLabel,
+.divbox-dropdown .dropdownWrapper { display:block; float:left; height:31px; }
+.divbox-dropdown .dropdownLabel { line-height:31px; }
+.divbox-dropdown .dropdownWrapper { width:31px; }
+.divbox-dropdown .dropdownWrapper .dropdown-options { display:none; float:left; margin:0; padding:0 1px; position:absolute; top:0; left:32px; z-index:9999; }
+.divbox-dropdown .dropdownWrapper.active .dropdown-options { display:block; }
+.divbox-dropdown .dropdownWrapper.active .selected-thumbnail,
+.divbox-dropdown .dropdownWrapper .dropdown-options { background:#888;
+	-ms-box-shadow:0 0 2px #000;
+	-webkit-box-shadow:0 0 2px #000;
+	-khtml-box-shadow:0 0 2px #000;
+	-moz-box-shadow:0 0 2px #000;
+	-o-box-shadow:0 0 2px #000;
+	box-shadow:0 0 2px #000;
+}
+.divbox-dropdown .dropdownWrapper .dropdown-options .dropdown-option { list-style:none; margin:0; padding:5px; cursor:pointer; border-top:1px solid #999; border-bottom:1px solid #777; }
+.divbox-dropdown .dropdownWrapper .dropdown-options .dropdown-option.selected,
+.divbox-dropdown .dropdownWrapper .dropdown-options .dropdown-option:hover { background:#BBB; }
+.divbox-dropdown .dropdownWrapper .selected-thumbnail,
+.divbox-dropdown .dropdownWrapper .dropdown-thumbnail { display:block; position:relative; width:31px; height:31px; overflow:hidden; cursor:pointer; }
+.divbox-dropdown .dropdownWrapper .thumbnail { position:absolute; top:0; left:-88px; }
+
+
+
+
+
+.number,
+.text,
+.checkbox,
+.select,
+.divbox-dropdown { margin:0 0 6px 0; padding:0; }
+
+.number .spinLabel,
+.text .textLabel,
+.checkbox .checkboxLabel,
+.select .selectLabel,
+.divbox-dropdown .dropdownLabel { width:150px; }
+
+.number .spinInput,
+.text .textInput,
+.select .selectBox, 
+.select .selectBox option { color:black; }
+
+.number .spinWrapper,
+.text .textWrapper,
+.select .selectWrapper { overflow:hidden;
+	-ms-box-shadow:0 0 2px #000;
+	-webkit-box-shadow:0 0 2px #000;
+	-khtml-box-shadow:0 0 2px #000;
+	-moz-box-shadow:0 0 2px #000;
+	-o-box-shadow:0 0 2px #000;
+	box-shadow:0 0 2px #000;
+}
+
+
+
+
+
+.emma-image-holder {
+	-ms-box-shadow:1px 1px 5px #000;
+	-webkit-box-shadow:1px 1px 5px #000;
+	-khtml-box-shadow:1px 1px 5px #000;
+	-moz-box-shadow:1px 1px 5px #000;
+	-o-box-shadow:1px 1px 5px #000;
+	box-shadow:1px 1px 5px #000;
+}
+
+.emma-option-holder { padding:10px 0; }
+.emma-option-holder button { padding:10px; color:black; }
+.emma-option-holder button[disabled] { color:gray; }
+
+
+
+
+
+.themer-pages { padding-top:30px; visibility:hidden; height:0; overflow:hidden; }
+
+
+
+#emmaThemePreset .btn-load-theme { display:block; position:relative; background:none; border:none; margin:0 10px 10px 0; padding:0; float:left; }
+#emmaThemePreset .btn-load-theme img { display:block; position:relative; margin:0; padding:0; width:180px; height:140px; border:1px solid white; 
+	-ms-box-shadow:0 0 2px #000;
+	-webkit-box-shadow:0 0 2px #000;
+	-khtml-box-shadow:0 0 2px #000;
+	-moz-box-shadow:0 0 2px #000;
+	-o-box-shadow:0 0 2px #000;
+	box-shadow:0 0 2px #000;
+}
+#emmaThemePreset .btn-load-theme.active img,
+#emmaThemePreset .btn-load-theme:hover img { border-color:black; }
+
+#emmaThemePreset .btn-load-theme .checkbox { 
+	z-index:99;
+	display:block; width:32px; height:32px;
+	visibility:hidden;
+	position:absolute; top:5px; right:auto; bottom:auto; left:5px; 
+	background:url("../images/checkmark.png") 95% 95% no-repeat; 
+}
+#emmaThemePreset .btn-load-theme.active .checkbox { visibility:visible; }
+#emmaThemePreset .btn-load-theme.active img {
+	-ms-filter:"alpha(opacity=50)";
+	filter:alpha(opacity=50);
+	-khtml-opacity:.50;
+	-moz-opacity:.50;
+	opacity:.50;
+}
+
+
+
+
+#emmaThemeCustom #settings {  }
+#emmaThemeCustom #settings fieldset { margin:0 0 10px 0; padding:10px; border:1px solid #666; }
+#emmaThemeCustom #settings legend { margin:0; float:right; font-weight:bold; font-size:14px; background:none; border:none; color:#666; }
+
+
+.ajax-spinner { display:block; visibility:hidden; width:24px; height:24px; background:url("../images/ajax-loader.gif") no-repeat; position:absolute; top:15px; right:15px; z-index:99; }
+.ajax-spinner.active { visibility:visible; }

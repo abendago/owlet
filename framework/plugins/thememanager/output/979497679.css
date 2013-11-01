@@ -1,0 +1,138 @@
+/***
+
+ EmmaActive CSS
+ http://www.emmaactive.com
+ @copyright: Copyright (c) 2011 EmmaActive, Inc. All rights reserved.
+ @license: Dual licensed under the MIT or GPL Version 2 licenses.
+ @date: 21/12/2011
+ @theme: 979497679
+
+***/
+#EMMA_active.EMMA_979497679{display:block;position:relative;width:100%;height:100%;min-width:100%;min-height:100%;margin:0;padding:0}
+#EMMA_active.EMMA_979497679 .EMMA_wrapper, #EMMA_active.EMMA_979497679 .EMMA_node, #EMMA_active.EMMA_979497679 .EMMA_wrapper *, #EMMA_active.EMMA_979497679 .EMMA_node *{display:block;visibility:visible;margin:0;padding:0;width:auto;height:auto;min-width:0;min-height:0;max-width:none;max-height:none;position:relative;top:auto;right:auto;bottom:auto;left:auto;font-size:11px;font-weight:normal;font-family:"arial", sans-serif;font-variant:normal;font-style:normal;line-height:normal;letter-spacing:normal;vertical-align:baseline;word-spacing:normal;word-wrap:normal;text-decoration:none;text-transform:none;text-align:left;text-indent:0;text-shadow:none;outline:none;float:none;clear:none;cursor:default;background:none;border:none;white-space:normal;overflow:visible;direction:ltr;z-index:auto;color:#000;zoom:normal}
+#EMMA_active.EMMA_979497679 .EMMA_logo, #EMMA_active.EMMA_979497679 .EMMA_btnBotL, #EMMA_active.EMMA_979497679 .EMMA_tagDot, #EMMA_active.EMMA_979497679 .EMMA_tagLinkLike, #EMMA_active.EMMA_979497679 .EMMA_formBtnSubmit span, #EMMA_active.EMMA_979497679 .EMMA_windowBtnClose, #EMMA_active.EMMA_979497679 .EMMA_windowLogout, #EMMA_active.EMMA_979497679 .EMMA_btnCancel, #EMMA_active.EMMA_979497679 .EMMA_btnSettings, #EMMA_active.EMMA_979497679 .EMMA_iconLabel{background:url("http://cdn.emmaactive.com/frontend-themes/resources/grfx_launch.png") no-repeat}
+#EMMA_active.EMMA_979497679 .EMMA_wrapper strong, #EMMA_active.EMMA_979497679 .EMMA_node strong, #EMMA_active.EMMA_979497679 .EMMA_wrapper strong *, #EMMA_active.EMMA_979497679 .EMMA_node strong *{display:inline;font-weight:bold}
+#EMMA_active.EMMA_979497679 .EMMA_wrapper em, #EMMA_active.EMMA_979497679 .EMMA_node em, #EMMA_active.EMMA_979497679 .EMMA_wrapper em *, #EMMA_active.EMMA_979497679 .EMMA_node em *{display:inline;font-style:italic}
+#EMMA_active.EMMA_979497679 .EMMA_node{display:block}
+#EMMA_active.EMMA_979497679 .EMMA_node.EMMA_inlineNode{display:-moz-inline-stack !important;display:inline-block !important;zoom:1 !important;*display:inline !important}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_sectionBody, #EMMA_active.EMMA_979497679 .EMMA_node .EMMA_sectionFooter, #EMMA_active.EMMA_979497679 .EMMA_node .EMMA_image{display:block;width:100%;height:auto}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_sectionFooter{border-top:1px solid #555}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_overlay{position:absolute;top:-99999em;right:0;bottom:0;left:-99999em;width:100%;height:100%;visibility:hidden;overflow:hidden}
+#EMMA_active.EMMA_979497679 .EMMA_node.EMMA_taggingMode .EMMA_overlay{visibility:visible;top:0;left:0}
+#EMMA_active.EMMA_979497679 .EMMA_node.EMMA_taggingMode .EMMA_overlay .EMMA_tagHolder{cursor:crosshair;background:url("http://cdn.emmaactive.com/images_frontend/emmaBgTransparent-ieFix.gif") 0 0 repeat}
+#EMMA_active.EMMA_979497679 .EMMA_node.EMMA_taggingMode .EMMA_overlay .EMMA_tagHolder .EMMA_tagBubble{display:none !important}
+#EMMA_active.EMMA_979497679 .EMMA_node.EMMA_taggingMode .EMMA_overlay .EMMA_tagHolder .EMMA_tag .EMMA_tagDot{-ms-filter:"alpha(opacity=70)";filter:alpha(opacity=70);-khtml-opacity:.70;-moz-opacity:.70;opacity:.70}
+#EMMA_active.EMMA_979497679 .EMMA_node.EMMA_taggingMode .EMMA_overlay .EMMA_tagHolder .EMMA_tag .EMMA_tagDot:hover{-ms-filter:"alpha(opacity=100)";filter:alpha(opacity=100);-khtml-opacity:1;-moz-opacity:1;opacity:1}
+#EMMA_active.EMMA_979497679 .EMMA_node.EMMA_repositionMode .EMMA_overlay{visibility:visible;top:0;left:0}
+#EMMA_active.EMMA_979497679 .EMMA_node.EMMA_repositionMode .EMMA_overlay .EMMA_tagHolder{cursor:default}
+#EMMA_active.EMMA_979497679 .EMMA_node.EMMA_repositionMode .EMMA_overlay .EMMA_tagHolder .EMMA_tagBubble{display:none !important}
+#EMMA_active.EMMA_979497679 .EMMA_node.EMMA_handOver *{cursor:hand !important;cursor:grab !important;cursor:-moz-grab !important;cursor:-webkit-grab !important;cursor:url("http://cdn.emmaactive.com/global-images/openhand.cur"), default !important}
+#EMMA_active.EMMA_979497679 .EMMA_node.EMMA_handDrag *{cursor:grabbing !important;cursor:-moz-grabbing !important;cursor:-webkit-grabbing !important;cursor:url("http://cdn.emmaactive.com/global-images/closedhand.cur"), default !important}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_linkHolder{z-index:1;display:none;padding:8px;overflow:hidden}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_linkHolderBackground{z-index:0;position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;background:#000;-ms-filter:"alpha(opacity=70)";filter:alpha(opacity=70);-khtml-opacity:.70;-moz-opacity:.70;opacity:.70;-webkit-border-radius:0 0 10px 10px;-khtml-border-radius:0 0 10px 10px;-moz-border-radius:0 0 10px 10px;border-radius:0 0 10px 10px}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_linkHolder .EMMA_link span{position:absolute;top:0;left:0}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_linkHolder .EMMA_link{z-index:1;width:50%;white-space:nowrap;text-indent:30px;height:24px;line-height:24px;color:#FFFFFF;overflow:hidden;display:-moz-inline-stack !important;display:inline-block !important;zoom:1 !important;*display:inline !important;*float:left;-ms-filter:"alpha(opacity=50)";filter:alpha(opacity=50);-khtml-opacity:.50;-moz-opacity:.50;opacity:.50}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_linkHolder .EMMA_link:hover{-ms-filter:"alpha(opacity=100)";filter:alpha(opacity=100);-khtml-opacity:1;-moz-opacity:1;opacity:1}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_tagHolder{z-index:1;position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_tagHolder .EMMA_tag{z-index:1;position:absolute;width:auto;height:auto}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_tagHolder .EMMA_tag .EMMA_tagDot{z-index:2;position:absolute}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_tagHolder .EMMA_tag .EMMA_tagOutline{z-index:1;position:absolute;top:50%;left:50%;display:none;background:#FFFFFF;-webkit-border-radius:999px;-khtml-border-radius:999px;-moz-border-radius:999px;border-radius:999px;-ms-filter:"alpha(opacity=50)";filter:alpha(opacity=50);-khtml-opacity:.50;-moz-opacity:.50;opacity:.50}
+#EMMA_active.EMMA_979497679.EMMA_noBorderRadiusSupport .EMMA_node .EMMA_tagHolder .EMMA_tag .EMMA_tagOutline{display:none!important}
+#EMMA_active.EMMA_979497679.EMMA_noRgbaSupport .EMMA_node .EMMA_tagHolder .EMMA_tag .EMMA_tagOutline{background:transparent;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99FFFFFF,endColorstr=#99FFFFFF)}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_tagHolder .EMMA_tag .EMMA_tagBubble{z-index:3;position:absolute}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_tagHolder .EMMA_tag .EMMA_tagBubbleContent{z-index:1;padding:10px}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_tagHolder .EMMA_tag .EMMA_tagBubbleContent .EMMA_tagLink{z-index:2;min-height:11px;margin-bottom:4px;padding-bottom:5px;border-bottom:1px solid #DDD}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_tagHolder .EMMA_tag .EMMA_tagBubbleContent .EMMA_tagLink.EMMA_lastItem{border-bottom:none;margin-bottom:0;padding-bottom:0}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_tagHolder .EMMA_tag .EMMA_tagBubbleContent .EMMA_tagLinkText, #EMMA_active.EMMA_979497679 .EMMA_node .EMMA_tagHolder .EMMA_tag .EMMA_tagBubbleContent .EMMA_tagLinkURL{z-index:0;white-space:nowrap;line-height:12px}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_tagHolder .EMMA_tag .EMMA_tagBubbleContent .EMMA_tagLinkText{color:#209DC5}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_tagHolder .EMMA_tag .EMMA_tagBubbleContent .EMMA_tagLinkURL{color:#888888;font-size:10px}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_tagHolder .EMMA_tag .EMMA_tagBubbleContent .EMMA_tagLinkLike:hover{background-position:-91px -127px}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_tagHolder .EMMA_tag .EMMA_tagBubbleContent .EMMA_tagLinkLike{width:11px;height:11px;z-index:1;position:absolute;top:0;right:0;left:auto;bottom:auto;text-indent:-999px;overflow:hidden;background-position:-80px -127px}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_tagHolder .EMMA_tagSmall .EMMA_tagDot{width:19px;height:19px;left:-9px;top:-9px;background-position:0 0}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_tagHolder .EMMA_tagMedium .EMMA_tagDot{width:25px;height:25px;left:-12px;top:-12px;background-position:-38px 0}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_tagHolder .EMMA_tagLarge .EMMA_tagDot{width:31px;height:31px;left:-15px;top:-15px;background-position:-88px 0}
+#EMMA_active.EMMA_979497679 .EMMA_node.EMMA_taggingMode .EMMA_overlay .EMMA_tagHolder .EMMA_tagSmall .EMMA_tagDot:hover, #EMMA_active.EMMA_979497679 .EMMA_node.EMMA_repositionMode .EMMA_overlay .EMMA_tagHolder .EMMA_tagSmall .EMMA_tagDot{background-position:-19px 0}
+#EMMA_active.EMMA_979497679 .EMMA_node.EMMA_taggingMode .EMMA_overlay .EMMA_tagHolder .EMMA_tagMedium .EMMA_tagDot:hover, #EMMA_active.EMMA_979497679 .EMMA_node.EMMA_repositionMode .EMMA_overlay .EMMA_tagHolder .EMMA_tagMedium .EMMA_tagDot{background-position:-63px 0}
+#EMMA_active.EMMA_979497679 .EMMA_node.EMMA_taggingMode .EMMA_overlay .EMMA_tagHolder .EMMA_tagLarge .EMMA_tagDot:hover, #EMMA_active.EMMA_979497679 .EMMA_node.EMMA_repositionMode .EMMA_overlay .EMMA_tagHolder .EMMA_tagLarge .EMMA_tagDot{background-position:-119px 0}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_shareHolder{padding:10px}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_shareHeader{margin-bottom:5px;color:#000000;white-space:nowrap;text-align:center}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_shareHolder .EMMA_shareButtons{width:auto;height:32px;white-space:nowrap;text-align:center}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_shareHolder .EMMA_shareButton{width:32px;height:32px;margin:0 2px;display:-moz-inline-stack !important;display:inline-block !important;zoom:1 !important;*display:inline !important}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_shareHolder .st_twitter_large{background:url("http://w.sharethis.com/images/twitter_32.png") 0 0 no-repeat}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_shareHolder .st_facebook_large{background:url("http://w.sharethis.com/images/facebook_32.png") 0 0 no-repeat}
+#EMMA_active.EMMA_979497679 .EMMA_node.EMMA_on .EMMA_overlay{visibility:visible;top:0;left:0}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_tagHolder .EMMA_tag .EMMA_tagBubble .EMMA_tagBubbleCanvas{z-index:0;position:absolute;top:0;left:0}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_guiLeftHolder{z-index:99;position:absolute;top:auto;right:auto;bottom:10px;left:-145px;width:180px}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_guiRightHolder{z-index:99;position:absolute;top:10px;right:-80px;bottom:auto;left:auto;width:80px;height:25px}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_btnBotL:hover{text-decoration:none}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_btnBotL{width:100%;height:33px;line-height:33px;font-size:10px;color:#FFF;white-space:nowrap;direction:rtl;text-indent:40px;text-align:right;text-decoration:none;text-shadow:1px 1px 0 rgba(0,0,0,0.5)}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_btnTopR:hover{text-decoration:none}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_btnTopR{width:100%;height:25px;line-height:25px;font-size:10px;white-space:nowrap;text-indent:10px;text-align:left;text-decoration:none}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_btnAddTag{background-position:100% 0}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_btnCancel{background-position:-234px -83px;color:#FFF;text-shadow:1px 1px 0 rgba(0,0,0,0.5)}
+#EMMA_active.EMMA_979497679 .EMMA_node .EMMA_btnSettings{z-index:2;position:absolute;top:10px;right:10px;width:29px;height:29px;background-position:-80px -98px}
+#EMMA_active.EMMA_979497679 .EMMA_formStyle{padding:0 35px}
+#EMMA_active.EMMA_979497679 .EMMA_formStyle *[disabled]{color:#888 !important}
+#EMMA_active.EMMA_979497679 .EMMA_formStyle p{color:#999;font-size:14px;margin-bottom:20px}
+#EMMA_active.EMMA_979497679 .EMMA_formStyle .EMMA_formVerifyQuestion{color:#BBB;font-size:11px;margin:20px 0 10px 0;left:91px;text-indent:2px}
+#EMMA_active.EMMA_979497679 .EMMA_formStyle .EMMA_formError{position:absolute;top:75px;left:225px;color:#FFCC33;font-size:10px}
+#EMMA_active.EMMA_979497679 .EMMA_formStyle .EMMA_formDisabledMsg{float:left;color:#FFCC33;line-height:27px;margin:5px 0 0 10px}
+#EMMA_active.EMMA_979497679 .EMMA_formStyle .EMMA_formLabel{width:430px;line-height:44px;color:#BBB;margin-bottom:10px;clear:both}
+#EMMA_active.EMMA_979497679 .EMMA_formStyle .EMMA_formLabel-sm{width:253px;line-height:44px;color:#BBB;margin-bottom:10px;clear:both;float:left}
+#EMMA_active.EMMA_979497679 .EMMA_formStyle .EMMA_formLabel span, #EMMA_active.EMMA_979497679 .EMMA_formStyle .EMMA_formLabel-sm span{position:absolute;top:0;right:0;padding:10px;color:#FFF;line-height:24px}
+#EMMA_active.EMMA_979497679 .EMMA_formStyle .EMMA_formLabel.EMMA_formErrorRow, #EMMA_active.EMMA_979497679 .EMMA_formStyle .EMMA_formLabel-sm.EMMA_formErrorRow{color:#FFCC33}
+#EMMA_active.EMMA_979497679 .EMMA_formStyle .EMMA_textField input, #EMMA_active.EMMA_979497679 .EMMA_formStyle .EMMA_textArea textarea, #EMMA_active.EMMA_979497679 .EMMA_formStyle .EMMA_dropDown select{width:100%;border:none;background:none;font-size:16px;color:#5AC0E4}
+#EMMA_active.EMMA_979497679 .EMMA_formStyle .EMMA_textField span, #EMMA_active.EMMA_979497679 .EMMA_formStyle .EMMA_textArea span, #EMMA_active.EMMA_979497679 .EMMA_formStyle .EMMA_dropDown span{width:319px}
+#EMMA_active.EMMA_979497679 .EMMA_formStyle .EMMA_textField{height:44px}
+#EMMA_active.EMMA_979497679 .EMMA_formStyle .EMMA_textField span{height:24px;border-bottom:1px solid #5d5d5d;background:#222;background:-o-linear-gradient(top, rgb(17,17,17), rgb(34,34,34));background:-moz-linear-gradient(top, rgb(17,17,17), rgb(34,34,34));background:-webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(17,17,17)), color-stop(1, rgb(34,34,34)));filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FF111111,EndColorStr=#FF222222);-ms-filter:"progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FF111111,EndColorStr=#FF222222)";-webkit-border-radius:10px;-khtml-border-radius:10px;-moz-border-radius:10px;border-radius:10px}
+#EMMA_active.EMMA_979497679 .EMMA_formStyle .EMMA_formLabel-sm.EMMA_textField span{width:142px}
+#EMMA_active.EMMA_979497679 .EMMA_formStyle .EMMA_textField input{height:24px;line-height:24px;cursor:text}
+#EMMA_active.EMMA_979497679 .EMMA_formStyle .EMMA_options{float:left;clear:both;height:27px;margin-top:5px;padding-left:88px;color:#AAA}
+#EMMA_active.EMMA_979497679 .EMMA_formStyle .EMMA_options *{display:inline;line-height:27px;margin:0 5px;color:#FFF}
+#EMMA_active.EMMA_979497679 .EMMA_formStyle .EMMA_options .EMMA_optForgotPass, #EMMA_active.EMMA_979497679 .EMMA_formStyle .EMMA_options .EMMA_optBackToLogin{color:#209DC5}
+#EMMA_active.EMMA_979497679 .EMMA_dropDownDiv{z-index:99;width:327px;padding:5px;height:auto;position:absolute;background:#333;color:#FFF;-ms-box-shadow:1px 1px 5px rgba(0, 0, 0, 0.8);-webkit-box-shadow:1px 1px 5px rgba(0, 0, 0, 0.8);-khtml-box-shadow:1px 1px 5px rgba(0, 0, 0, 0.8);-moz-box-shadow:1px 1px 5px rgba(0, 0, 0, 0.8);-o-box-shadow:1px 1px 5px rgba(0, 0, 0, 0.8);box-shadow:1px 1px 5px rgba(0, 0, 0, 0.8)}
+#EMMA_active.EMMA_979497679 .EMMA_dropDownDiv .EMMA_button{width:100%;overflow:hidden;white-space:nowrap;text-decoration:none;text-indent:26px;line-height:24px;color:#FFF}
+#EMMA_active.EMMA_979497679 .EMMA_dropDownDiv .EMMA_button:hover{background:#209DC5}
+#EMMA_active.EMMA_979497679 .EMMA_dropDownDiv .EMMA_button .EMMA_iconLabel{position:absolute;top:0;left:0}
+#EMMA_active.EMMA_979497679 .EMMA_dropDownDiv .EMMA_button:hover .EMMA_iconLabel{background-position:-24px -50px}
+#EMMA_active.EMMA_979497679 .EMMA_formBtnSubmit{cursor:pointer;clear:both;border:none;overflow:visible;background:none;float:right;margin-top:5px}
+#EMMA_active.EMMA_979497679 .EMMA_formBtnSubmit *{cursor:pointer;white-space:nowrap;font-weight:bold;color:#FFFFFF}
+#EMMA_active.EMMA_979497679 .EMMA_formBtnSubmit span{margin:0;padding:0;height:27px;line-height:27px;background-position:-324px -108px}
+#EMMA_active.EMMA_979497679 .EMMA_formBtnSubmit span span{margin-left:11px;padding-right:20px;text-shadow:1px 1px 0 rgba(0,0,0,0.5);background-position:100% -162px}
+#EMMA_active.EMMA_979497679 .EMMA_formBtnSubmit[disabled] *{color:#196078 !important}
+#EMMA_active.EMMA_979497679 .EMMA_formBtnSubmit:hover span, #EMMA_active.EMMA_979497679 .EMMA_formBtnSubmit[disabled] span{background-position:-324px -135px}
+#EMMA_active.EMMA_979497679 .EMMA_formBtnSubmit:hover span span, #EMMA_active.EMMA_979497679 .EMMA_formBtnSubmit[disabled] span span{background-position:100% -189px}
+#EMMA_active.EMMA_979497679 .EMMA_formBtnSubmit.EMMA_button:hover, #EMMA_active.EMMA_979497679 .EMMA_formBtnSubmit.EMMA_button:hover *{text-decoration:none}
+#EMMA_active.EMMA_979497679 .EMMA_formBtnSubmit.EMMA_formBtnLeft{float:left;margin-left:-2px}
+#EMMA_active.EMMA_979497679 .EMMA_modalMsg{padding:0 70px}
+#EMMA_active.EMMA_979497679 .EMMA_modalMsg *{text-align:center}
+#EMMA_active.EMMA_979497679 .EMMA_modalMsg a{text-decoration:underline;cursor:pointer}
+#EMMA_active.EMMA_979497679 .EMMA_modalMsg h2{color:#209DC5;font-size:18px;margin-bottom:20px}
+#EMMA_active.EMMA_979497679 .EMMA_modalMsg p{color:#999;font-size:14px;margin-bottom:20px}
+#EMMA_active.EMMA_979497679 .EMMA_modalMsg p *{color:#999;font-size:14px;display:inline}
+#EMMA_active.EMMA_979497679 .EMMA_modalMsg .EMMA_logo{width:149px;height:24px;margin:70px auto 20px auto;text-indent:-999px;overflow:hidden;background-position:0 -74px}
+#EMMA_active.EMMA_979497679 .EMMA_wrapper{display:none;width:100%;height:100%;position:fixed;top:0;right:0;bottom:0;left:0;z-index:979497679}
+#EMMA_active.EMMA_979497679 .EMMA_wrapper.EMMA_showWin{display:block}
+#EMMA_active.EMMA_979497679 .EMMA_window{z-index:1;width:500px;margin:0;padding:0 0 30px 0;position:absolute;top:50%;left:50%;margin-left:-250px}
+#EMMA_active.EMMA_979497679 .EMMA_windowOverlay{z-index:0;position:fixed;top:0;right:0;bottom:0;left:0;width:100%;height:100%;background:#000;-ms-filter:"alpha(opacity=75)";filter:alpha(opacity=75);-khtml-opacity:.75;-moz-opacity:.75;opacity:.75}
+#EMMA_active.EMMA_979497679 .EMMA_window .EMMA_windowBtnClose:hover{background-position:-151px -98px}
+#EMMA_active.EMMA_979497679 .EMMA_window .EMMA_windowBtnClose{width:42px;height:42px;z-index:99;position:absolute;top:-15px;right:-15px;bottom:auto;left:auto;text-indent:-999px;overflow:hidden;background-position:-109px -98px}
+#EMMA_active.EMMA_979497679 .EMMA_window .EMMA_windowLogout:hover{background-position:0 -125px}
+#EMMA_active.EMMA_979497679 .EMMA_window .EMMA_windowLogout{width:80px;height:27px;z-index:1;position:absolute;top:0;right:auto;bottom:auto;left:35px;text-indent:-999px;overflow:hidden;background-position:0 -98px}
+#EMMA_active.EMMA_979497679 .EMMA_window .EMMA_windowUserName{z-index:1;position:absolute;top:0;left:125px;height:27px;line-height:27px;color:#FFF}
+#EMMA_active.EMMA_979497679 .EMMA_window .EMMA_windowUserName span{display:inline;line-height:27px;color:#209DC5}
+#EMMA_active.EMMA_979497679 .EMMA_window .EMMA_windowBody{z-index:1;width:100%}
+#EMMA_active.EMMA_979497679 .EMMA_window .EMMA_windowBackground{z-index:0;position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;-ms-box-shadow:0 0 10px #FFF;-webkit-box-shadow:0 0 10px #FFF;-khtml-box-shadow:0 0 10px #FFF;-moz-box-shadow:0 0 10px #FFF;-o-box-shadow:0 0 10px #FFF;box-shadow:0 0 10px #FFF;-webkit-border-radius:15px;-khtml-border-radius:15px;-moz-border-radius:15px;border-radius:15px;background:#222;background:-o-linear-gradient(top, rgb(68,68,68), rgb(34,34,34));background:-moz-linear-gradient(top, rgb(68,68,68), rgb(34,34,34));background:-webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(68,68,68)), color-stop(1, rgb(34,34,34)));filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FF444444,EndColorStr=#FF222222);-ms-filter:"progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FF444444,EndColorStr=#FF222222)"}
+#EMMA_active.EMMA_979497679 .EMMA_window .EMMA_header{padding-top:45px;height:55px}
+#EMMA_active.EMMA_979497679 .EMMA_window .EMMA_header .EMMA_logo{float:left;width:149px;height:24px;margin:7px 0 20px 0;cursor:pointer;text-indent:-999px;overflow:hidden;background-position:0 -74px}
+#EMMA_active.EMMA_979497679 .EMMA_window .EMMA_header .EMMA_title{float:left;height:40px;line-height:40px;margin:0 0 0 20px;padding-left:20px;border-left:1px solid #666;color:#209DC5;font-size:17px;font-weight:bold;text-shadow:1px 1px 0 #000}
+#EMMA_active.EMMA_979497679 .EMMA_window .EMMA_prompt{padding:0 35px}
+#EMMA_active.EMMA_979497679 .EMMA_window .EMMA_prompt .EMMA_promptMessage{color:#999;font-size:14px;margin-bottom:20px}
+#EMMA_active.EMMA_979497679 .EMMA_window .EMMA_prompt .EMMA_promptAccept, #EMMA_active.EMMA_979497679 .EMMA_window .EMMA_prompt .EMMA_promptDeny{float:left;clear:none;margin-right:10px}
+#EMMA_active.EMMA_979497679 .EMMA_button, #EMMA_active.EMMA_979497679 .EMMA_button *{cursor:pointer;text-decoration:none}
+#EMMA_active.EMMA_979497679 .EMMA_button:hover, #EMMA_active.EMMA_979497679 .EMMA_button:hover *{text-decoration:underline}
+#EMMA_active.EMMA_979497679 .EMMA_iconLabel{width:24px;height:24px;background-position:0 -50px}
+#EMMA_active.EMMA_979497679 .EMMA_noSelect, #EMMA_active.EMMA_979497679 .EMMA_noSelect *{-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-o-user-select:none;user-select:none}
+#EMMA_active.EMMA_979497679 .EMMA_wrapper button::-moz-focus-inner, #EMMA_active.EMMA_979497679 .EMMA_node button::-moz-focus-inner{border:0}
+#EMMA_active.EMMA_979497679 .EMMA_formStyle .EMMA_dropDownDiv .EMMA_button:hover{background:#209DC5;color:#FFFFFF}
+#EMMA_active.EMMA_979497679 .EMMA_formStyle .EMMA_formLabel, #EMMA_active.EMMA_979497679 .EMMA_formStyle .EMMA_formLabel-sm{color:#BBBBBB}
