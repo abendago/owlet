@@ -1,4 +1,4 @@
-# READ ME FOR OWLETS
+# README FOR OWLETS
 #
 # INSTALLATION
 ###########################
