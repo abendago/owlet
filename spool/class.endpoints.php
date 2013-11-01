@@ -35,7 +35,7 @@ class endpoints
 
 		//check the uniqueness of the chars
 		global $dbcon;
-		$sql = "SELECT * FROM urlrefs WHERE 'strTinyURL'='".mysql_real_escape_string($strMinifiedURL)."'";
+		$sql = "SELECT * FROM urlrefs WHERE strTinyURL='".mysql_real_escape_string($strMinifiedURL)."'";
 		$res = mysql_query($sql, $dbcon);
 
 		// loop until we found a unique one. 
@@ -75,7 +75,6 @@ class endpoints
 	{
 		global $dbcon;
 		$sql = "SELECT strFullURL FROM urlrefs WHERE strTinyURL='".mysql_real_escape_string($this->url)."'";
-		echo $sql;
 		$res = mysql_query($sql, $dbcon);
 		$strFullURL =  mysql_result($res, 0);
 
