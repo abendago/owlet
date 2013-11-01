@@ -1,9 +1,7 @@
 # README FOR OWLETS
-#
-# INSTALLATION
-###########################
 
-#FILES
+
+#Files
 
 Download all source files. 
 You should have two primary folders:
@@ -29,7 +27,7 @@ Setup a mysql database and take note of the database name, username and password
 Install the sql table you downloaded in the git repo
 Open the file spool/config.php and update the login credentials according to your specification above
 
-RUN
+#RUN
 Load the index.php file in your webrowser (on my server it would be http://short.abendago.com/)
 
 #API
