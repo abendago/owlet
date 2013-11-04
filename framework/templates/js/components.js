@@ -28,9 +28,9 @@ $(document).ready(function(){
 		
 		if ($(this).hasClass("btnShorten"))
 		{
-			var strAPIURL = "http://short.abendago.com/api/encode/json";
+			var strAPIURL = "/api/encode/json";
 		} else {
-			var strAPIURL = "http://short.abendago.com/api/decode/json";
+			var strAPIURL = "/api/decode/json";
 		}
 
 		$("#responseElement").removeClass().html("<img src='/templates/images/ajaxloader.gif' class='loader'/>").show();

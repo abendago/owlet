@@ -3,9 +3,19 @@
 class endpoints
 {
 	var $strURL;
+	var $dbcon;
 
 	function endpoints()
-	{	}
+	{
+		global $hostname;
+		global $username;
+		global $password;
+		global $dbname;
+
+		# initialize db connection inside the worker to avoid mysql collisions. 
+		$this->dbcon = mysql_connect($hostname, $username, $password, true);
+		mysql_select_db($dbname, $this->dbcon) or die("Unknown database! Db: $dbname".PHP_EOL);
+	}
 
 	function go($strURL, $endPoint)
 	{
@@ -36,7 +46,7 @@ class endpoints
 		//check the uniqueness of the chars
 		global $dbcon;
 		$sql = "SELECT * FROM urlrefs WHERE strTinyURL='".mysql_real_escape_string($strMinifiedURL)."'";
-		$res = mysql_query($sql, $dbcon);
+		$res = mysql_query($sql, $this->dbcon);
 
 		// loop until we found a unique one. 
 		$nMaxTries = 100;
@@ -45,7 +55,7 @@ class endpoints
 		{
 		  $strMinifiedURL = $this->generate_chars();
 		  $sql = "SELECT id FROM urlrefs WHERE strTinyURL='http://short.abendago.com/short/".mysql_real_escape_string($strMinifiedURL)."'";
-		  $res = mysql_query($sql, $dbcon);
+		  $res = mysql_query($sql, $this->dbcon);
 		  $nTries++;
 		}
 
@@ -55,7 +65,8 @@ class endpoints
 			$arrResults[strMessage] = "We Could Not Generate a Unique URL For: ".$this->url;
 		} else {
 			$sql = "INSERT INTO urlrefs (strTinyURL, strFullURL) VALUES ('http://short.abendago.com/short/".mysql_real_escape_string($strMinifiedURL)."', '".mysql_real_escape_string($this->url)."')";
-			$res = mysql_query($sql, $dbcon); //insert into the database
+			echo $sql.PHP_EOL;
+			$res = mysql_query($sql, $this->dbcon); //insert into the database
 			if(mysql_affected_rows()):
 				//ok, inserted. now get the data
 				$arrResults[nStatus] = "1";
@@ -75,7 +86,8 @@ class endpoints
 	{
 		global $dbcon;
 		$sql = "SELECT strFullURL FROM urlrefs WHERE strTinyURL='".mysql_real_escape_string($this->url)."'";
-		$res = mysql_query($sql, $dbcon);
+		$res = mysql_query($sql, $this->dbcon);
+
 		$strFullURL =  mysql_result($res, 0);
 
 		if ($strFullURL)

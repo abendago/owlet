@@ -19,7 +19,8 @@ function worker_thread ()
     $worker = $context->getSocket(ZMQ::SOCKET_REQ);
     $worker->connect("ipc://backend.ipc");
 	echo "started a worker...".PHP_EOL;
-    //  Tell broker we're ready for work
+    
+	//  Tell broker we're ready for work
     $worker->send("READY");
 	echo "$identity worker says READY...".PHP_EOL;
 
