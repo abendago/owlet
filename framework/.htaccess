@@ -1,3 +1,3 @@
 RewriteEngine On
-RewriteCond %{QUERY_STRING} callback\=(.*)
-RewriteRule ^api/(.*)/(json) /index.php?fuseaction=api.run&strEndPoint=$1&callback=%1&format=$2 [R=301]
+RewriteCond %{QUERY_STRING} strProvidedURL\=(.*)
+RewriteRule ^api/(.*)/(json) /index.php?fuseaction=api.run&strEndPoint=$1&strProvidedURL=%1&format=$2 [R=301]

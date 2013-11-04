@@ -46,7 +46,7 @@ $(document).ready(function(){
 
 			$.ajax(
 			{
-				url: strAPIURL+"?callback=?",
+				url: strAPIURL+"?",
 				data: {"strProvidedURL": strURL},
 				dataType: 'json',
 				success: function(objJSON) {
