@@ -18,7 +18,7 @@
 		<div id="wrapper">
 			<div id="container">
 				<div class="headerElement">
-					<h1>Owlets Are Friends With Short URLs</h1>
+					<h1>Owlets Are Friends With Short URLs (For Hootsuite)</h1>
 				</div>
 
 				<?=$form?>
